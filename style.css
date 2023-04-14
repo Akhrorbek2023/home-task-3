@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: sans-serif;
+    background-color:aliceblue;
+    position: relative;
+}
+.btn {
+    border: none;
+    background-color: coral;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+img {
+    object-fit: contain;
+}
+.logo {
+    font-size: 30px;
+    color: coral;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+a strong {
+    color: black;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.mini-container {
+    width: 50%;
+    margin: 0 auto;
+}
+#header {
+    padding: 70px 0;
+}
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar ul li a {
+    margin: 0 15px;
+    color: #111;
+}
+.navbar ul li a:hover {
+    color: coral;
+}
+.smart-web {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content {
+    width: 550px;
+}
+.content h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.content h1, .content p, .btn {
+    margin-bottom: 60px;
+}
+
+
+.title {
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.web-service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px 0;
+}
+.service-box i {
+    
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    
+}
+.service-box h3, .service-box i, .service-box p{
+    margin-bottom: 15px;
+}
+.web-offer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+
+}
+.web-offer .offer-box:nth-child(2) i {
+    background-color: coral;
+}
+.offer-box {
+    width: 350px;
+    max-height: 400px;
+    text-align: center;
+    border: 1px solid rgb(225, 219, 219);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 60px;
+    background-color: #fff;
+    margin-top: 20px;
+   
+}
+.icon i {
+    text-align: center;
+    padding: 15px;
+    border-radius: 45px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+    
+}
+.icon-mini i {
+    border-radius: 45px;
+    padding: 10px;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.offer-box h3, .offer-box p {
+    margin: 25px 0;
+}
+.offer-box {
+    line-height: 1.5rem;
+}
+.offer-box p {
+    color: gray;
+}
+#project {
+    margin: 50px 0;
+}
+.project-pic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.p-box {
+    border-radius: 15px;
+}
+.p-box h3 {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.view-all {
+    text-align: center;
+}
+.meet-our-team {
+    margin: 70px 0;
+}
+.team-box img {
+    object-fit:fill;
+    width: 270px;
+    height: 280px;
+    border-radius: 10px;
+   
+}
+.team-pic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-box {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.team-box img, .team-box h4, .team-box p, .icons {
+    margin-bottom: 15px;
+}
+.testimonials {
+    margin: 70px 0;
+    
+}
+.testimonials img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+.t-pic {
+    text-align: center;
+}
+.ts-pic {
+    display: flex;
+    justify-content: space-around;
+}
+.tm-pic {
+    text-align: center;
+}
+.td-pic {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+.td-pic .red {
+    border: 5px solid coral;
+    padding: 3px;
+}
+.tm-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.comment {
+    display: flex;
+    justify-content: space-around;
+}
+.comment .alina {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.comment .alina p {
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+.comment .alina h4 {
+    color: coral;
+    margin-bottom: 10px;
+}
+.comment .alina h5 {
+    color: gray;
+    margin-bottom: 10px;
+}
+.form-boxs {
+    display:flex;
+    justify-content: space-between;
+}
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-box input {
+    width: 310px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form-box {
+    margin-bottom: 20px;
+}
+#typing {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.form-box .btn {
+    float: right;
+}
+#contact-form {
+    margin: 70px 0;
+}
+.clr {
+    clear: both;
+}
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+    margin: 50px 0;
+}
+
+
+.first address {
+    display: block;
+}
+.first-icon i {
+    padding: 5px;
+    border-radius: 90px;
+    background-color: black;
+    color: #fff;
+}
+.forth input {
+    display: block;
+    width: 250px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.forth .btn {
+    width: 270px;
+
+}
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.sidebar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar ul li a {
+    margin-left: 50px;
+}
